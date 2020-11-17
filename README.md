@@ -9,6 +9,7 @@
 * 2020-10-30. Лекция 2. Представление и работа с целыми числами. [Презентация](00-lectures/02-integers/lecture02.pdf). [Запись](https://youtu.be/r0MJV4BEsVo?t=4940).
 * 2020-11-06. Лекция 3. Представление и работа с вещественными числами. [Презентация](00-lectures/03-floating-point/lecture03.pdf). [Запись](https://youtu.be/ti44rdDh3yY).
 * 2020-11-06. Лекция 4. Взаимодействие программы на Си с окружением. [Презентация](00-lectures/04-environment/lecture04.pdf). [Запись](https://youtu.be/ZXW81ZR5U_w).
+* 2020-11-13. Лекции 5,6. Текстовые и бинарные данные. Хранение данных в памяти. [Презентация](00-lectures/05-data-formats/lecture05.pdf). [Запись](https://youtu.be/gJNEqSiv9R4).
 
 ## Прочее
 
