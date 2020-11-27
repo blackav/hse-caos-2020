@@ -525,11 +525,27 @@ void *realloc(void *oldptr, size_t newsize);
 
 Если при добавлении элемента в массив места в нем не осталось,
 память под него перевыделяется:
+
 ```
     if (size == reserved) {
-        data = realloc(data, (reserved *= 2) * sizeof(*data));
+        int *new_data = realloc(data, (reserved *= 2) * sizeof(*data));
+        if (!new_data) { // ошибка аллокации
+            free(data);
+            exit(1);
+        }
+        data = new_data;
     }
     data[size++] = newvalue;
+```
+
+В случае ошибки выделения памяти методом `realloc` память, на которую ссылается `data`
+не освобождается автоматически, нужно явно вызвать от нее метод `free`.
+
+Так как написано ниже писать нельзя, так как в случае ошибки выделения памяти, указатель
+на выделенный ранее кусок потеряется и произойдет утечка памяти:
+
+```
+~~data = realloc(data, (reserved *= 2) * sizeof(*data));~~
 ```
 
 # Текстовые файлы
