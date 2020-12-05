@@ -463,7 +463,7 @@ size_t concatenate(char *buf, size_t size, const char *str1, const char *str2)
     char *eptr;
     errno = 0; // очищаем errno, так как при успехе errno не модифицируется
     long value = strtol(str, &eptr, 10);
-    if (!*str || *eptr || errno) {
+    if (eptr == str || *eptr || errno) {
         // ошибка преобразования из строки в число
     }
 ```
@@ -527,10 +527,85 @@ void *realloc(void *oldptr, size_t newsize);
 память под него перевыделяется:
 ```
     if (size == reserved) {
+        // есть проблема: см. обсуждение далее
         data = realloc(data, (reserved *= 2) * sizeof(*data));
     }
     data[size++] = newvalue;
 ```
+
+## Обработка ошибок выделения памяти
+
+Функции выделения памяти `calloc`, `realloc` и прочие могут возвращать `NULL`,
+если операция выделения памяти закончилась с ошибкой.
+Разыменование нулевого указателя при выполнении программы - это undefined behavior,
+что недопустимо. Поэтому результат, который вернули функции выделения
+памяти, **должен проверяться на NULL, и ошибка выделения памяти должна как-то
+обрабатываться**.
+
+Однако ответить на вопрос *Как нужно обрабатывать ошибки выделения памяти?* сложнее.
+Самый простой вариант - вернуть наверх, в вызывающую функцию какое-то значение,
+сигнализирующее об ошибке, например, тот же `NULL`, переложив ответственность
+на обработку ошибки выделения памяти на вызывающую функцию.
+
+Фрагмент функции добавляющий элемент в расширяемый массив, может быть тогда таким:
+
+```c
+    if (size == reserved) {
+        size_t new_reserved;
+        if (__builtin_mul_overflow(reserved, 2, &new_reserved)) {
+            return 0;
+        }
+        if (!new_reserved) new_reserved = 16;
+        size_t new_size;
+        if (__builtin_mul_overflow(new_reserved, sizeof(*data), &new_size)) {
+            return 0;
+        }
+        int *new_data = realloc(data, new_size);
+        if (!new_data) {
+            // возвращаем наверх признак того, что операция не удалась
+            return 0;
+        }
+        reserved = new_reserved;
+        data = new_data;
+    }
+    data[size++] = newvalue;
+    return 1; // успешное выполнение
+```
+
+С другой стороны, очень часто не видно какой-либо разумной стратегии обработки
+ошибки нехватки памяти. Тогда проще будет в случае нехватки памяти просто
+завершить программу аварийно, предоставив разработчикам выяснять
+причину падения программы и причину нехватки памяти.
+
+Тогда код можно переписать следующим образом:
+
+```c
+    if (size == reserved) {
+        size_t new_reserved;
+        if (__builtin_mul_overflow(reserved, 2, &new_reserved)) {
+            fprintf(stderr, "size overflow\n");
+            abort();
+        }
+        if (!new_reserved) new_reserved = 16;
+        size_t new_size;
+        if (__builtin_mul_overflow(new_reserved, sizeof(*data), &new_size)) {
+            fprintf(stderr, "size overflow\n");
+            abort();
+        }
+        int *new_data = realloc(data, new_size);
+        if (!new_data) {
+            fprintf(stderr, "out of memory\n");
+            abort();
+        }
+        reserved = new_reserved;
+        data = new_data;
+    }
+    data[size++] = newvalue;
+```
+
+Смысл использования функции `abort()` здесь в том, чтобы программа завершилась аварийно,
+и мы сможем, например, исследовать посмертный дамп памяти, или получим трассу стека
+в системных логах.
 
 # Текстовые файлы
 
