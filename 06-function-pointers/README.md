@@ -96,9 +96,9 @@ int process(int len, const char *str);
 Объявление переменных в Си/Си++ состоит из базового типа, идентификатора объявляемой переменной и разных модификаторов. Например,
 
 ```
-int a;                         // базовый тип &mdash; int
-const unsigned long long *ptr; // базовый тип &mdash; const unsigned long long
-double *ptr[10];               // базовый тип &mdash; double
+int a;                         // базовый тип -- int
+const unsigned long long *ptr; // базовый тип -- const unsigned long long
+double *ptr[10];               // базовый тип -- double
 ```
 
 На самом деле конструкции, модифицирующие тип, такие как указатели, массивы, функции комбинируются в синтаксической конструкции,
