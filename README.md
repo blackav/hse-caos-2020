@@ -9,14 +9,25 @@
 * 2020-10-30. Лекция 2. Представление и работа с целыми числами. [Презентация](00-lectures/02-integers/lecture02.pdf). [Запись](https://youtu.be/r0MJV4BEsVo?t=4940).
 * 2020-11-06. Лекция 3. Представление и работа с вещественными числами. [Презентация](00-lectures/03-floating-point/lecture03.pdf). [Запись](https://youtu.be/ti44rdDh3yY).
 * 2020-11-06. Лекция 4. Взаимодействие программы на Си с окружением. [Презентация](00-lectures/04-environment/lecture04.pdf). [Запись](https://youtu.be/ZXW81ZR5U_w).
-* 2020-11-13. Лекции 5,6. Текстовые и бинарные данные. Хранение данных в памяти. [Презентация](00-lectures/05-data-formats/lecture05.pdf). [Запись](https://youtu.be/gJNEqSiv9R4).
-* 2020-11-20. Лекции 7,8. Проект GNU. Инструментальные средства разработки на Си/Си++. [Презентация](00-lectures/07-gnu-toolchain/lecture07.pdf). [Запись](https://youtu.be/WcBTI0PKAuY).
+* 2020-11-13. Лекции 5, 6. Текстовые и бинарные данные. Хранение данных в памяти. [Презентация](00-lectures/05-data-formats/lecture05.pdf). [Запись](https://youtu.be/gJNEqSiv9R4).
+* 2020-11-20. Лекции 7, 8. Проект GNU. Инструментальные средства разработки на Си/Си++. [Презентация](00-lectures/07-gnu-toolchain/lecture07.pdf). [Запись](https://youtu.be/WcBTI0PKAuY).
+* 2020-11-27. Лекции 9, 10. История развития компьютеров. [Презентация](00-lectures/09-cpu-history/lecture09.pdf). [Запись](https://youtu.be/TsGqDlZ1k64).
+* 2020-12-04. Лекция 11. Оперативная память. [Презентация](00-lectures/11-memory/lecture11.pdf). [Запись](https://youtu.be/R8YEp6YvTqc).
+* 2020-12-18. Лекции 12, 13. Ассемблер x86/x64, часть 1. [Презентация](00-lectures/12-asm-1/lecture12.pdf). [Запись](https://youtu.be/9kKLJyd1Zu0).
+* 2021-01-15. Лекции 14, 15. Ассемблер x86/x64, часть 2. [Презентация](00-lectures/14-asm-2/lecture14.pdf). [Запись](https://youtu.be/8sYqqPsGkZM).
+* 2021-01-22. Лекции 16, 17. Ассемблер x86/x64, часть 3. [Презентация](00-lectures/16-asm-3/lecture16.pdf). [Запись](https://youtu.be/mItQndH_ptg).
+* 2021-01-29. Лекции 18, 19. Ассемблер x86/x64, часть 4. [Презентация](00-lectures/18-asm-4/lecture18.pdf). [Запись](https://youtu.be/VIiPUBIFVbc).
 
 ## Семинарские занятия
 
 1. [Ввод-вывод в языке Си](01-stdio/README.md)
 2. [Целые числа](02-integers/README.md)
 3. [Числа с плавающей точкой](03-floating-point/README.md)
+4. [Массивы, указатели, строки](04-arrays/README.md)
+6. [Указатели на функции](06-function-pointers/README.md)
+7. [Ассемблер x86/x64, часть 1](07-asm1/README.md)
+8. [Ассемблер x86/x64, часть 2](08-asm2/README.md)
+9. [Ассемблер x86/x64, часть 3](09-asm3/README.md)
 
 ## Литература
 
