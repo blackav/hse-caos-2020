@@ -17,6 +17,10 @@
 * 2021-01-15. Лекции 14, 15. Ассемблер x86/x64, часть 2. [Презентация](00-lectures/14-asm-2/lecture14.pdf). [Запись](https://youtu.be/8sYqqPsGkZM).
 * 2021-01-22. Лекции 16, 17. Ассемблер x86/x64, часть 3. [Презентация](00-lectures/16-asm-3/lecture16.pdf). [Запись](https://youtu.be/mItQndH_ptg).
 * 2021-01-29. Лекции 18, 19. Ассемблер x86/x64, часть 4. [Презентация](00-lectures/18-asm-4/lecture18.pdf). [Запись](https://youtu.be/VIiPUBIFVbc).
+* 2021-02-05. Лекция 20. Внутренняя архитектура процессоров. [Презентация](00-lectures/20-cpu-internals/lecture20.pdf). [Запись](https://youtu.be/tODteVEEzwM).
+* 2021-02-12. Лекция 21. Взаимодействие с внешними устройствами. Ядро ОС. [Презентация](00-lectures/21-io/lecture21.pdf). [Запись](https://youtu.be/1qwlZLLVC-I).
+* 2021-02-12. Лекция 22. Файловая система, часть 1. [Презентация](00-lectures/22-filesystem-1/lecture22.pdf).
+* 2021-02-19. Лекция 23. Файловая система, часть 2. [Презентация](00-lectures/23-filesystem-2/lecture23.pdf). [Запись](https://youtu.be/WoyAq3JoqpM).
 
 ## Семинарские занятия
 
@@ -26,8 +30,10 @@
 4. [Массивы, указатели, строки](04-arrays/README.md)
 6. [Указатели на функции](06-function-pointers/README.md)
 7. [Ассемблер x86/x64, часть 1](07-asm1/README.md)
-8. [Ассемблер x86/x64, часть 2](08-asm2/README.md)
+8. [Ассемблер x86/x64, часть 2](08-asm2/README.md) [Запись](https://youtu.be/MEYU0cKDoxo).
 9. [Ассемблер x86/x64, часть 3](09-asm3/README.md)
+10. [Ассемблер x86/x64, часть 4](10-asm4/README.md) [Запись](https://youtu.be/3-ER36Nm4dU).
+11. [Работа с файлами, часть 1](11-file1/README.md) [Запись](https://youtu.be/wJ8zXVHigOk).
 
 ## Литература
 
@@ -39,6 +45,7 @@
 ## Прочее
 
 * Установка Fedora 33 в Virtual Box [Видео](https://youtu.be/hhrf7KbR-lM)
+* Введение в систему команд процессора ARM. [Видео](https://youtu.be/KYkso_riUpY)
 
 ## Ссылки
 
