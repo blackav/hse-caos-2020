@@ -45,7 +45,7 @@
 ## Прочее
 
 * Установка Fedora 33 в Virtual Box [Видео](https://youtu.be/hhrf7KbR-lM)
-* Введение в систему команд процессора ARM. [Видео](https://youtu.be/KYkso_riUpY)
+* [Введение в систему команд процессора ARM.](99-arm/README.md) [Видео](https://youtu.be/KYkso_riUpY)
 
 ## Ссылки
 
