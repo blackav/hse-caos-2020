@@ -21,6 +21,9 @@
 * 2021-02-12. Лекция 21. Взаимодействие с внешними устройствами. Ядро ОС. [Презентация](00-lectures/21-io/lecture21.pdf). [Запись](https://youtu.be/1qwlZLLVC-I).
 * 2021-02-12. Лекция 22. Файловая система, часть 1. [Презентация](00-lectures/22-filesystem-1/lecture22.pdf).
 * 2021-02-19. Лекция 23. Файловая система, часть 2. [Презентация](00-lectures/23-filesystem-2/lecture23.pdf). [Запись](https://youtu.be/WoyAq3JoqpM).
+* 2021-02-26. Лекции 24, 25. Файловая система, часть 3. Виртуальная память. [Презентация](00-lectures/24-filesystem-3/lecture24.pdf). [Запись](https://youtu.be/SKNjcc5ExQc).
+* 2021-03-05. Лекция 26. Файлы, отображаемые в память. [Презентация](00-lectures/26-mmap/lecture26.pdf). [Запись](https://youtu.be/I4b1hTOhHxI).
+* 2021-03-12. Лекции 27, 28. Процессы. [Презентация](00-lectures/27-fork/lecture27.pdf). [Запись](https://youtu.be/aY0ztcSmk3E).
 
 ## Семинарские занятия
 
@@ -33,7 +36,10 @@
 8. [Ассемблер x86/x64, часть 2](08-asm2/README.md) [Запись](https://youtu.be/MEYU0cKDoxo).
 9. [Ассемблер x86/x64, часть 3](09-asm3/README.md)
 10. [Ассемблер x86/x64, часть 4](10-asm4/README.md) [Запись](https://youtu.be/3-ER36Nm4dU).
-11. [Работа с файлами, часть 1](11-file1/README.md) [Запись](https://youtu.be/wJ8zXVHigOk).
+11. [Работа с файлами, часть 1](11-files1/README.md) [Запись](https://youtu.be/wJ8zXVHigOk).
+12. [Работа с файлами, часть 2](12-files2/README.md) [Запись](https://youtu.be/quH5S8Rb6QA).
+13. [Работа с файлами, часть 3](13-files3/README.md) [Запись](https://youtu.be/i8HR85SbpCU).
+14. [Файлы, отображаемые в память](14-mmap/README.md) [Запись](https://youtu.be/kAySqrNBMvM).
 
 ## Литература
 
