@@ -161,4 +161,5 @@ Intel называются скалярными. В этом случае в р�
 
 ## Ссылки
 
-1. [x86 Instruction Set Reference](http://x86.renejeschke.de/)
+1. [Intel intrinsic instructions](https://software.intel.com/sites/landingpage/IntrinsicsGuide/#expand=388,886,882,767,2947,2971,1067,1071,1067,285&techs=MMX,SSE,SSE2)
+2. [~~x86 Instruction Set Reference~~](http://x86.renejeschke.de/)
