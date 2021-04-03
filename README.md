@@ -24,6 +24,8 @@
 * 2021-02-26. Лекции 24, 25. Файловая система, часть 3. Виртуальная память. [Презентация](00-lectures/24-filesystem-3/lecture24.pdf). [Запись](https://youtu.be/SKNjcc5ExQc).
 * 2021-03-05. Лекция 26. Файлы, отображаемые в память. [Презентация](00-lectures/26-mmap/lecture26.pdf). [Запись](https://youtu.be/I4b1hTOhHxI).
 * 2021-03-12. Лекции 27, 28. Процессы. [Презентация](00-lectures/27-fork/lecture27.pdf). [Запись](https://youtu.be/aY0ztcSmk3E).
+* 2021-03-19. Лекция 29. Запуск программ на выполнение. [Презентация](00-lectures/29-exec/lecture29.pdf). [Запись](https://youtu.be/0OaKspt2Xog).
+* 2021-03-26. Лекции 30, 31. Каналы. Сигналы, ч.1. [Презентация](00-lectures/30-pipe/lecture30.pdf). [Запись](https://youtu.be/krl9nVDUmsI).
 
 ## Семинарские занятия
 
@@ -40,6 +42,9 @@
 12. [Работа с файлами, часть 2](12-files2/README.md) [Запись](https://youtu.be/quH5S8Rb6QA).
 13. [Работа с файлами, часть 3](13-files3/README.md) [Запись](https://youtu.be/i8HR85SbpCU).
 14. [Файлы, отображаемые в память](14-mmap/README.md) [Запись](https://youtu.be/kAySqrNBMvM).
+15. [Создание процессов](15-fork/README.md) [Запись](https://youtu.be/ZTssqP2pwds).
+16. [Запуск на исполнение](16-exec/README.md) [Запись](https://youtu.be/eIJm8x1O2Gg).
+
 
 ## Литература
 
