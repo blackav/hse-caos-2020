@@ -26,6 +26,9 @@
 * 2021-03-12. Лекции 27, 28. Процессы. [Презентация](00-lectures/27-fork/lecture27.pdf). [Запись](https://youtu.be/aY0ztcSmk3E).
 * 2021-03-19. Лекция 29. Запуск программ на выполнение. [Презентация](00-lectures/29-exec/lecture29.pdf). [Запись](https://youtu.be/0OaKspt2Xog).
 * 2021-03-26. Лекции 30, 31. Каналы. Сигналы, ч.1. [Презентация](00-lectures/30-pipe/lecture30.pdf). [Запись](https://youtu.be/krl9nVDUmsI).
+* 2021-04-09. Лекции 32, 33. Сигналы, ч.2. Сокеты. [Презентация](00-lectures/32-signal/lecture32.pdf). [Запись](https://youtu.be/ET2nOVjTfH8).
+* 2021-03-16. Лекция 34. Средства межпроцессного взаимодействия. [Презентация](00-lectures/34-ipc/lecture34.pdf). [Запись](https://youtu.be/Hd1RYV113V0).
+* 2021-04-09. Лекции 35, 36. Терминалы. Событийно-ориентированные программы. [Презентация](00-lectures/35-tty/lecture35.pdf). [Запись](https://youtu.be/D5qfXlayooI).
 
 ## Семинарские занятия
 
@@ -44,7 +47,9 @@
 14. [Файлы, отображаемые в память](14-mmap/README.md) [Запись](https://youtu.be/kAySqrNBMvM).
 15. [Создание процессов](15-fork/README.md) [Запись](https://youtu.be/ZTssqP2pwds).
 16. [Запуск на исполнение](16-exec/README.md) [Запись](https://youtu.be/eIJm8x1O2Gg).
-
+17. Каналы [Запись](https://youtu.be/V68dkidoios?list=PLEwK9wdS5g0qaFRRs8pcO3NT5W2IgPBfb).
+18. Сигналы [Запись](https://youtu.be/uHqJbyIcNVY).
+19. [Сокеты](19-socket/README.md) [Запись](https://youtu.be/NKoIiT-hTm0).
 
 ## Литература
 
