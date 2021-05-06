@@ -37,6 +37,7 @@
 2. [Целые числа](02-integers/README.md)
 3. [Числа с плавающей точкой](03-floating-point/README.md)
 4. [Массивы, указатели, строки](04-arrays/README.md)
+5. Списки, деревья. "Широкие" символы.
 6. [Указатели на функции](06-function-pointers/README.md)
 7. [Ассемблер x86/x64, часть 1](07-asm1/README.md)
 8. [Ассемблер x86/x64, часть 2](08-asm2/README.md) [Запись](https://youtu.be/MEYU0cKDoxo).
@@ -51,6 +52,7 @@
 17. Каналы [Запись](https://youtu.be/V68dkidoios?list=PLEwK9wdS5g0qaFRRs8pcO3NT5W2IgPBfb).
 18. [Сигналы](18-signal/README.md) [Запись](https://youtu.be/uHqJbyIcNVY).
 19. [Сокеты](19-socket/README.md) [Запись](https://youtu.be/NKoIiT-hTm0).
+20. [Таймеры, Epoll](20-poll/README.md) [Запись](https://youtu.be/16EUgzyOj4c).
 
 ## Литература
 
