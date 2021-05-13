@@ -6,14 +6,14 @@
 * [Получение идентификации процессов](#ProcessIdentification)
 * [Завершение работы процесса](#ProcessTermination)
 * [Ожидание завершения процесса](#ProcessWaiting)
- * [Системный вызов `wait`](#ProcessWaitingWait)
- * [Системный вызов `waitpid`](#ProcessWaitingWaitpid)
- * [Системный вызов `wait4`](#ProcessWaitingWait4)
- * [Возможные коды ошибок системных вызовов семейства `wait`](#ProcessWaitingErrors)
+  * [Системный вызов `wait`](#ProcessWaitingWait)
+  * [Системный вызов `waitpid`](#ProcessWaitingWaitpid)
+  * [Системный вызов `wait4`](#ProcessWaitingWait4)
+  * [Возможные коды ошибок системных вызовов семейства `wait`](#ProcessWaitingErrors)
 * [Использование системных вызовов](#ProcessUsage)
- * [Что такое "успешное завершение" процесса](#ProcessUsageSuccess)
- * [Как дождаться всех запущенных процессов](#ProcessUsageWaitAll)
- * [Почему после `fork` в сыне предпочтительнее `_exit`](#ProcessUsageExit)
+  * [Что такое "успешное завершение" процесса](#ProcessUsageSuccess)
+  * [Как дождаться всех запущенных процессов](#ProcessUsageWaitAll)
+  * [Почему после `fork` в сыне предпочтительнее `_exit`](#ProcessUsageExit)
 
 Дополнительные темы
 
