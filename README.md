@@ -47,12 +47,13 @@
 12. [Работа с файлами, часть 2](12-files2/README.md) [Запись](https://youtu.be/quH5S8Rb6QA).
 13. [Работа с файлами, часть 3](13-files3/README.md) [Запись](https://youtu.be/i8HR85SbpCU).
 14. [Файлы, отображаемые в память](14-mmap/README.md) [Запись](https://youtu.be/kAySqrNBMvM).
-15. Создание процессов [Запись](https://youtu.be/ZTssqP2pwds).
+15. [Создание процессов](15-fork/README.md) [Запись](https://youtu.be/ZTssqP2pwds).
 16. Запуск на исполнение [Запись](https://youtu.be/eIJm8x1O2Gg).
 17. Каналы [Запись](https://youtu.be/V68dkidoios?list=PLEwK9wdS5g0qaFRRs8pcO3NT5W2IgPBfb).
 18. [Сигналы](18-signal/README.md) [Запись](https://youtu.be/uHqJbyIcNVY).
 19. [Сокеты](19-socket/README.md) [Запись](https://youtu.be/NKoIiT-hTm0).
 20. [Таймеры, Epoll](20-poll/README.md) [Запись](https://youtu.be/16EUgzyOj4c).
+21. [Нити](21-pthread/README.md) [Запись](https://youtu.be/16EUgzyOj4c).
 
 ## Литература
 
