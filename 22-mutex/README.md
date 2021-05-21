@@ -112,8 +112,8 @@ void thread2() {
 // хотим гарантировать, что эти два счётчика модифицируются одновременно, 
 // то есть никакое чтение не должно увидит эту пару в состоянии, 
 // когда один из счётчиков модифицирован, а другой - ещё нет
-volatile sig_atomic_t counter0 = 0;
-volatile sig_atomic_t counter1 = 0;
+int counter0 = 0;
+int counter1 = 0;
 pthread_mutex_t counter_mutex = PTHREAD_MUTEX_INITIALIZER;
 
 // оба счётчика увеличиваются одновременно

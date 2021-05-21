@@ -53,7 +53,7 @@
 18. [Сигналы](18-signal/README.md) [Запись](https://youtu.be/uHqJbyIcNVY).
 19. [Сокеты](19-socket/README.md) [Запись](https://youtu.be/NKoIiT-hTm0).
 20. [Таймеры, Epoll](20-poll/README.md) [Запись](https://youtu.be/16EUgzyOj4c).
-21. [Нити](21-pthread/README.md) [Запись](https://youtu.be/16EUgzyOj4c).
+21. [Нити](21-pthread/README.md)
 
 ## Литература
 
