@@ -193,7 +193,7 @@ if (!f) pthread_cond_wait(&c); // Некорректная программа!
 ```
 pthread_cond_t c = PTHREAD_COND_INITIALIZER;
 pthread_mutex_t m = PTHREAD_MUTEX_INITIALIZER;
-volatile bool f = false;
+bool f = false;
 
 // первая нить
 pthread_mutex_lock(&m);
@@ -203,7 +203,10 @@ pthread_mutex_unlock(&m);
 
 // вторая нить
 pthread_mutex_lock(&m);
-if (!f) pthread_cond_wait(&c, &m);
+while (!f) {
+  pthread_cond_wait(&c, &m);
+}
+f = false;
 pthread_mutex_unlock(&m);
 ```
 
