@@ -29,7 +29,10 @@
 * 2021-04-09. Лекции 32, 33. Сигналы, ч.2. Сокеты. [Презентация](00-lectures/32-signal/lecture32.pdf). [Запись](https://youtu.be/ET2nOVjTfH8).
 * 2021-04-16. Лекция 34. Средства межпроцессного взаимодействия. [Презентация](00-lectures/34-ipc/lecture34.pdf). [Запись](https://youtu.be/Hd1RYV113V0).
 * 2021-04-23. Лекции 35, 36. Терминалы. Событийно-ориентированные программы. [Презентация](00-lectures/35-tty/lecture35.pdf). [Запись](https://youtu.be/D5qfXlayooI).
-* 2021-04-30. Лекция 37. Нити, часть 1. [Презентация](00-lectures/37-threads/lecture37.pdf). [Запись](https://youtu.be/zDwMc2FTQJw).
+* 2021-04-30. Лекция 37. Нити. [Презентация](00-lectures/37-threads/lecture37.pdf). [Запись](https://youtu.be/zDwMc2FTQJw).
+* 2021-05-14. Лекция 38, 39. Синхронизация (мьютексы, кондвары). Типовые задачи. [Презентация](00-lectures/38-mutex/lecture38.pdf). [Запись](https://youtu.be/9-m6VIvVe8M).
+* 2021-05-21. Лекция 40. Модель памяти C/C++. [Презентация](00-lectures/40-atomic/lecture40.pdf). [Запись](https://youtu.be/yAiP_e36YFg).
+* 2021-05-28. Лекция 41. Корутины. [Запись](https://youtu.be/ccXJ42N9MzU).
 
 ## Семинарские занятия
 
@@ -53,7 +56,9 @@
 18. [Сигналы](18-signal/README.md) [Запись](https://youtu.be/uHqJbyIcNVY).
 19. [Сокеты](19-socket/README.md) [Запись](https://youtu.be/NKoIiT-hTm0).
 20. [Таймеры, Epoll](20-poll/README.md) [Запись](https://youtu.be/16EUgzyOj4c).
-21. [Нити](21-pthread/README.md)
+21. [Нити](21-pthread/README.md) [Запись](https://youtu.be/KvYmabvIFqo)
+22. [Мьютексы, кондвары, атомики](22-mutex/README.md) [Запись](https://youtu.be/UYqElpITjco)
+23. [Нити C++](23-stdthread/README.md) [Запись](https://youtu.be/laaguRoybOQ)
 
 ## Литература
 
